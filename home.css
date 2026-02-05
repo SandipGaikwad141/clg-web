@@ -1,0 +1,81 @@
+/* Custom styles for Amrutvahini College of Engineering website */
+
+/* Color scheme: Blue (#007bff) and Gold (#ffc107) */
+
+/* Gallery card hover effect */
+.gallery-card {
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.gallery-card:hover {
+    transform: scale(1.05);
+}
+
+.gallery-card img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover img {
+    transform: scale(1.1);
+}
+
+/* Hero section styling */
+.hero {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+/* Card styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar styling */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+/* Custom button styling */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+    color: #000;
+}
+
+/* Text colors */
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
